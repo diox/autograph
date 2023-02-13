@@ -6,26 +6,12 @@ updates:
     interval: daily
     timezone: UCT
   open-pull-requests-limit: 99
-  reviewers:
-  - g-k, kkleemola, pwnbus
-  assignees:
-  - g-k, kkleemola, pwnbus
-  ignore:
-  - dependency-name: golang
-    versions:
-    - ">= 1.17"
 - package-ecosystem: docker
   directory: "/database"
   schedule:
     interval: monthly
     timezone: UCT
   open-pull-requests-limit: 99
-  reviewers:
-  - g-k, kkleemola, pwnbus
-  ignore:
-  - dependency-name: postgres
-    versions:
-    - ">= 12.a"
 - package-ecosystem: gomod
   directory: "/"
   schedule:
@@ -33,8 +19,6 @@ updates:
     day: sunday
     timezone: UCT
   open-pull-requests-limit: 99
-  reviewers:
-  - g-k, kkleemola, pwnbus
 - package-ecosystem: gomod
   directory: "/tools/autograph-monitor"
   schedule:
@@ -42,7 +26,3 @@ updates:
     day: sunday
     timezone: UCT
   open-pull-requests-limit: 99
-  reviewers:
-  - g-k, kkleemola, pwnbus
-  assignees:
-  - g-k, kkleemola, pwnbus
